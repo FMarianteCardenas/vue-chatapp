@@ -9,9 +9,9 @@ import io from 'socket.io-client'
 
 Vue.config.productionTip = false
 window.Event = new Vue();
-Vue.prototype.socket = io('http://localhost:3000')
+Vue.prototype.socket = io('https://restservercursonodejs.herokuapp.com')
 
-Vue.prototype.base_url = 'http://localhost:3000'
+Vue.prototype.base_url = 'https://restservercursonodejs.herokuapp.com'
 
 new Vue({
   router,
